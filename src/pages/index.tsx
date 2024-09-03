@@ -24,11 +24,11 @@ const styles = {
     width: "100vw", // Aumentando a largura
     height: "60vw", // Aumentando a altura
     background: "radial-gradient(circle at bottom, rgba(111, 0, 255, 0.8), rgba(111, 0, 255, 0.5) 30%, rgba(74, 0, 115, 0.3) 60%, rgba(0, 0, 0, 0) 70%)", // Gradiente radial
-    borderRadius: "500px 500px 0 0", // Ajustando o semicírculo
     position: "absolute",
     top: "50%", // Posicionando mais ao centro
     left: "50%",
     transform: "translate(-50%, -75%) rotate(180deg)", // Centralizando e rotacionando 180 graus
     opacity: "1", // Opacidade completa
+    filter: "blur(250px)"
   }
 }
