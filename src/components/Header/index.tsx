@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 
 const Header = () => {
     return (
-        <header>
+        <header className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.logo}>
