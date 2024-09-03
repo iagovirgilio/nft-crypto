@@ -6,7 +6,9 @@ const Header = () => {
             <div className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.logo}>
-                        <img src="/logo.png" alt="logo" />
+                        <a href="#">
+                            <img src="/logo.png" alt="logo" />
+                        </a>
                     </div>
                     <div className={styles.menu}>
                         <ul>
