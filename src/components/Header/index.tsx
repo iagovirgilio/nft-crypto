@@ -7,7 +7,7 @@ const Header = () => {
                 <div className={styles.content}>
                     <div className={styles.logo}>
                         <a href="#">
-                            <img src="/logo.png" alt="logo" />
+                            <img src="/logo.webp" alt="logo" />
                         </a>
                     </div>
                     <div className={styles.menu}>
