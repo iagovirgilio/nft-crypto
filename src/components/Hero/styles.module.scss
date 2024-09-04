@@ -118,36 +118,36 @@
 
 @keyframes float1 {
     0% {
-        transform: translateY(0); /* Posição inicial */
+        transform: rotate(-15deg) translateY(0); /* Posição inicial */
     }
     50% {
-        transform: translateY(-20px); /* Sobe 20px */
+        transform: rotate(-15deg) translateY(-20px); /* Sobe 20px */
     }
     100% {
-        transform: translateY(0); /* Volta para a posição original */
+        transform: rotate(-15deg) translateY(0); /* Volta para a posição original */
     }
 }
 
 @keyframes float2 {
     0% {
-        transform: rotate(180deg) translateY(0); /* Posição inicial */
+        transform: rotate(187deg) translateY(0); /* Posição inicial */
     }
     50% {
-        transform: rotate(180deg) translateY(20px); /* Sobe 20px */
+        transform: rotate(187deg) translateY(20px); /* Sobe 20px */
     }
     100% {
-        transform: rotate(180deg) translateY(0); /* Volta para a posição original */
+        transform: rotate(187deg) translateY(0); /* Volta para a posição original */
     }
 }
 
 @keyframes float3 {
     0% {
-        transform: rotate(180deg) translateY(0); /* Posição inicial */
+        transform: rotate(187deg) translateY(0); /* Posição inicial */
     }
     50% {
-        transform: rotate(180deg) translateY(20px); /* Sobe 20px */
+        transform: rotate(187deg) translateY(20px); /* Sobe 20px */
     }
     100% {
-        transform: rotate(180deg) translateY(0); /* Volta para a posição original */
+        transform: rotate(187deg) translateY(0); /* Volta para a posição original */
     }
 }
