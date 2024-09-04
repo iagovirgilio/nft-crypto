@@ -1,14 +1,8 @@
-.movinBars {
-    padding-block: 130px;
-    background: #0B090D;
-}
-
 .topBar {
     display: flex;
     align-items: center;
     gap: 30px;
     background: #388BFF;
-    backdrop-filter: blur(20px);
     transform: rotate(4deg);
     overflow: hidden;
     white-space: nowrap;
@@ -44,7 +38,6 @@
     align-items: center;
     gap: 30px;
     background: #7F35FF;
-    filter: blur(2.5px);
     width: 110%;
     right: 10px;
     padding-block: 40px;
