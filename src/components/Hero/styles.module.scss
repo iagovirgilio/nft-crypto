@@ -25,7 +25,7 @@
         filter: hue-rotate(250deg) saturate(2.5) brightness(1.2) contrast(1.2); /* Ajusta o tom e intensidade */
         width: 226.879px;
         height: 226.879px;
-        top: 0;
+        top: -10%;
         left: 40%;
         z-index: -1;
         transform: rotate(180deg);
@@ -46,7 +46,7 @@
         height: 298.987px;
         transform: rotate(180deg);
         bottom: 0;
-        right: 5%;
+        right: 0%;
         z-index: -1;
         animation: float3 3s ease-in-out infinite;
         animation-delay: 2s;
