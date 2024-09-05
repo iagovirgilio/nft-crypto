@@ -6,8 +6,8 @@
         filter: hue-rotate(250deg) saturate(2.5) brightness(1.2) contrast(1.2); /* Ajusta o tom e intensidade */
         width: 349.701px;
         height: 349.701px;
-        top: 50vh;
-        left: -2%;
+        top: 50%;
+        left: -3%;
         z-index: -1;
         animation: float1 3s ease-in-out infinite;
         animation-delay: 0s;
@@ -62,6 +62,7 @@
     max-width: 1440px;
     margin: 0 auto;
     gap: 32px;
+    position: relative;;
     @media screen and (max-width: 768px) {
         padding-inline: 20px;
     }

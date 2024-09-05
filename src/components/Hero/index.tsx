@@ -3,16 +3,16 @@ import styles from "./styles.module.scss";
 const Hero = () => {
     return (
         <div className={styles.container}>
+            <div className={styles.etherium}>
+                <img src="/Etherium-1.png" alt="" />
+            </div>
+            <div className={styles.etherium}>
+                <img src="/Etherium-2.png" alt="" />
+            </div>
+            <div className={styles.etherium}>
+                <img src="/Etherium-3.png" alt="" />
+            </div>
             <div className={styles.content}>
-                <div className={styles.etherium}>
-                    <img src="/Etherium-1.png" alt="" />
-                </div>
-                <div className={styles.etherium}>
-                    <img src="/Etherium-2.png" alt="" />
-                </div>
-                <div className={styles.etherium}>
-                    <img src="/Etherium-3.png" alt="" />
-                </div>
                 <div className={styles.leftSide}>
                     <h1>
                         O maior
