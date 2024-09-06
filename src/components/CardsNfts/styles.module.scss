@@ -12,7 +12,7 @@
 .topBar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     span {
         color: var(--text-text-purple, #7F35FF);
         /* Web/Subtitle/Subtitle */
@@ -35,15 +35,34 @@
     }
 }
 
-.rightSide {
-    display: inline-flex;
+.leftSide {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     align-items: flex-start;
+}
+
+.rightSide {
+    display: flex;
+    flex:1;
+    align-items: end;
     gap: var(--space-medium-150, 12px);
     span {
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
         border-radius: 18px;
         border: 1px solid var(--border-border-imput, #2A2533);
         padding: var(--space-small-100, 8px) var(--space-medium-200, 16px);
         cursor: pointer;
+    }
+    span:hover {
+        background: #2A2533;
+        transition: all 0.3s ease-in-out;
     }
     span:nth-child(1) {
         border: 2px solid var(--border-border-purple, #7F35FF);
