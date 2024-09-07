@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import styles from "./styles.module.scss";
 import MovinBars from "@/components/MovinBars";
 import CardsNfts from "@/components/CardsNfts";
+import TopCollectors from "@/components/TopCollectors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <MovinBars />
       <CardsNfts />
+      {/* <TopCollectors /> */}
     </div>
   );
 }
