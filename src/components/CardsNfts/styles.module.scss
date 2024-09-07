@@ -72,8 +72,9 @@
 
 .cardsContent {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
+    grid-auto-flow:column;
+    overflow-x: hidden;
+    gap: 24px;
     @media screen and (max-width: 768px) {
         .cardsContent {
             grid-template-columns: repeat(2, 1fr);
@@ -87,9 +88,10 @@
     align-items: center;
     border-radius: var(--space-medium-150, 12px);
     border: 1px solid var(--border-border, #1F1B26);
+    width: 326px;
     img {
-        width: 100%;
-        height: 100%;
+        width: 326px;
+        height: 534px;
         object-fit: cover;
         border-radius: var(--space-medium-150, 12px);
     }
@@ -121,6 +123,8 @@
         height: 40px;
         flex-direction: column;
         align-items: center;
+        border-radius: 50%;
+        border: 2px solid var(--border-border-imput, #2A2533);
     }
     span{
         color: var(--text-text-muted, #625873);
