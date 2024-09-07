@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <MovinBars />
       <CardsNfts />
-      {/* <TopCollectors /> */}
+      <TopCollectors />
     </div>
   );
 }
