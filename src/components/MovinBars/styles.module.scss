@@ -19,7 +19,7 @@
     justify-content: space-between;
     gap: 30px;
     width: 100%;
-    animation: scrolling-left 20s linear infinite;
+    animation: scrolling-left 60s linear infinite;
 
     span {
         color:  #0B090D;
@@ -57,7 +57,7 @@
     justify-content: space-between;
     gap: 30px;
     width: 100%;
-    animation: scrolling-right 20s linear infinite;
+    animation: scrolling-right 60s linear infinite;
 
     span {
         color: #FFF;
@@ -73,19 +73,19 @@
 
 @keyframes scrolling-left {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(0%);
     }
     100% {
-        transform: translateX(0%);
+        transform: translateX(-100%);
     }
 }
 
 
 @keyframes scrolling-right {
     0% {
-        transform: translateX(0%);
+        transform: translateX(-100%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(0%);
     }
 }

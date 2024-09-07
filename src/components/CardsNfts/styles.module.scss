@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 24px;
     span {
         color: var(--text-text-purple, #7F35FF);
         /* Web/Subtitle/Subtitle */
@@ -66,5 +67,98 @@
     }
     span:nth-child(1) {
         border: 2px solid var(--border-border-purple, #7F35FF);
+    }
+}
+
+.cardsContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    @media screen and (max-width: 768px) {
+        .cardsContent {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--space-medium-150, 12px);
+    border: 1px solid var(--border-border, #1F1B26);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: var(--space-medium-150, 12px);
+    }
+}
+
+.cardInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-medium-200, 16px);
+    width: 100%;
+    span {
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.bottomLeft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    img {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    span{
+        color: var(--text-text-muted, #625873);
+        font-family: Inter;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    h3 {
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.bottomRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    small{
+        color: var(--text-text-success, #4BCE97);
+        font-family: Inter;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    span {
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
 }

@@ -21,21 +21,23 @@ const CardsNfts = () => {
                 <div className={styles.cardsContent}>
                     <div className={styles.card}>
                         <div className={styles.cardImage}>
-                            <img src="/" alt="" />
+                            <img src="CardNFT01.png" alt="" />
                         </div>
                         <div className={styles.cardInfo}>
                             <div className={styles.bottomLeft}>
-                                <img src="/crypto.svg" alt="Crypto" />
+                                <img src="/Avatar1.png" alt="Avatar Owner" />
                                 <div className={styles.owner}>
                                     <span>Owned by</span>
                                     <h3>Hacker</h3>
                                 </div>
                             </div>
                             <div className={styles.bottomRight}>
-                                <span>20% OFF</span>
+                                <small>2.432,21$</small>
+                                <span>1.2 ETH</span>
                             </div>
                         </div>
                     </div>
+    
                 </div>
             </div>
         </div>
