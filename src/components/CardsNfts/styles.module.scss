@@ -47,7 +47,7 @@
 .rightSide {
     display: flex;
     flex:1;
-    align-items: end;
+    align-items: flex-end;
     gap: var(--space-medium-150, 12px);
     span {
         color: var(--text-text, #FFF);

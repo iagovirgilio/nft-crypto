@@ -7,3 +7,223 @@
         padding-inline: 20px;
     }
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 24px;
+
+    span {
+        color: var(--text-text-purple, #7F35FF);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 133.333% */
+    }
+
+    h3 {
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 125% */
+    }
+
+    select {
+        display: flex;
+        width: 132px;
+        padding: var(--space-small-100, 8px) var(--space-medium-150, 12px) var(--space-small-100, 8px) var(--space-medium-200, 16px);
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 18px;
+        border: 1px solid var(--border-border, #1F1B26);
+        background: var(--background-background, #0B090D);
+        color: var(--text-text, #FFF);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 125% */
+    }
+}
+
+.all {
+    position: relative;
+    line-height: 20px;
+}
+.linedownIcon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.dropdown {
+    width: 100%;
+    position: relative;
+    border-radius: 18px;
+    background-color: #0b090d;
+    border: 1px solid #1f1b26;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px 8px 16px;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Inter;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    background: #2a2533;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.avatar10Icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 100px;
+    border: 2px solid #2a2533;
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.outrosverificadoIcon {
+    width: 20px;
+    position: absolute;
+    margin: 0 !important;
+    right: -4px;
+    bottom: -4px;
+    height: 20px;
+    z-index: 1;
+}
+
+.avatar {
+    width: 44px;
+    border-radius: 100px;
+    border: 2px solid #2a2533;
+    box-sizing: border-box;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.jhon {
+    position: relative;
+    line-height: 20px;
+}
+
+.jhonnft {
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7f35ff;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.avatarhandle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.linecryptoIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.linedownIcon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.b {
+    position: relative;
+    line-height: 16px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12px;
+    color: #ef4870;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4px;
+}
+
+.rank {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #1f1b26;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: Inter;
+}
