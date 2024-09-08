@@ -6,6 +6,7 @@ import CardsNfts from "@/components/CardsNfts";
 import TopCollectors from "@/components/TopCollectors";
 import Newsletter from "@/components/Newsletter";
 import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <TopCollectors />
       <Newsletter />
       <Faq />
+      <Footer />
     </div>
   );
 }
