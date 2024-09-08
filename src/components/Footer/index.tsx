@@ -6,7 +6,9 @@ const Footer = () => {
             <div className={styles.content}>
                 <div className={styles.leftSide}>
                     <div className={styles.logo}>
-                        <img alt="" src="./logofooter.png" />
+                        <a href="/">
+                            <img alt="" src="./logofooter.png" />
+                        </a>
                     </div>
                     <div className={styles.inforFooter}>
                         <p>
