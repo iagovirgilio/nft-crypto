@@ -1,0 +1,119 @@
+.container {
+    padding: 0 32px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        padding-inline: 20px;
+    }
+}
+
+.maskGroupIcon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 56px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.formNewsletter {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.subscribeToOur {
+    color: var(--text-text, #FFF);
+    text-align: center;
+    width: 442px;
+    /* Web/Headline/h2 */
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 56px */
+}
+
+.text2Newsletter {
+    width: 480px;
+    position: relative;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.inputGroup {
+    position: relative;
+    margin-top: 48px;
+    width: 342px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.inputNewsletter {
+    display: flex;
+    width: 342px;
+    height: 48px;
+    gap: 10px;
+    padding: var(--space-small-100, 8px) var(--space-small-100, 8px) var(--space-small-100, 8px) var(--space-medium-300, 24px);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid var(--border-border-imput, #2A2533);
+    background: var(--background-background, #0B090D);
+
+    color: var(--text-text, #FFF);
+
+    /* Web/Body/Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+.buttonNewsletter {
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 5px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-border-imput, #2A2533);
+    border-radius: 22px;
+    background: var(--background-background-muted, #352E40);
+    cursor: pointer;
+
+    color: var(--text-text-bold, #FFF);
+
+    /* Web/Button/Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+}
+
+.buttonNewsletter:hover {
+    background: #2A2533;
+    transition: all 0.3s ease-in-out;
+}
