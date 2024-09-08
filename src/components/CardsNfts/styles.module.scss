@@ -79,7 +79,6 @@
 .cardsContent {
     display: grid;
     grid-auto-flow:column;
-    overflow-x: hidden;
     gap: 24px;
     @media screen and (max-width: 768px) {
         .cardsContent {
@@ -95,11 +94,41 @@
     border-radius: var(--space-medium-150, 12px);
     border: 1px solid var(--border-border, #1F1B26);
     width: 326px;
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
+
     img {
         width: 326px;
         height: 534px;
         object-fit: cover;
         border-radius: var(--space-medium-150, 12px);
+    }
+
+    @media screen and (max-width: 768px) {
+        .card {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card:hover {
+    box-shadow: 0 0 10px 0 #7F35FF;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.02);
+
+        @media screen and (max-width: 768px) {
+        .card {
+            width: 100%;
+        }
     }
 }
 
