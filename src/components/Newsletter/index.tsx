@@ -13,8 +13,9 @@ const Newsletter: NextPage = () => {
                     <div className={styles.inputGroup}>
                         <input
                             className={styles.inputNewsletter}
-                            type="text"
+                            type="email"
                             placeholder="Type your email"
+                            required
                         />
                         <button className={styles.buttonNewsletter} type="submit">
                             Subscribe
