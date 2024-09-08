@@ -4,6 +4,7 @@ import styles from "./styles.module.scss";
 import MovinBars from "@/components/MovinBars";
 import CardsNfts from "@/components/CardsNfts";
 import TopCollectors from "@/components/TopCollectors";
+import Newsletter from "@/components/Newsletter";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MovinBars />
       <CardsNfts />
       <TopCollectors />
+      <Newsletter />
     </div>
   );
 }
