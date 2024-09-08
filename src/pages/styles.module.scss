@@ -11,4 +11,13 @@
         opacity: 1; // Opacidade completa
         filter: blur(250px);
     }
+
+    @media screen and (max-width: 768px) {
+        .semiCirculo {
+            width: 100vw;
+            height: 100vw;
+            top: 40%;
+            left: 50%;
+        }
+    }
 }
