@@ -1,0 +1,54 @@
+.whatIsA {
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+}
+
+.linedownIcon {
+    width: 28px;
+    position: relative;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.header {
+    align-self: stretch;
+    background-color: #0b090d;
+    border-bottom: 1px solid #1f1b26;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+
+.header:hover {
+    background: #2a2533;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.accordionRow {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.accordion {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
