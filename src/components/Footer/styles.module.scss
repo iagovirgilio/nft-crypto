@@ -1,0 +1,162 @@
+.container {
+    padding: 0 32px;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 32px;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width: 768px) {
+        padding-inline: 20px;
+    }
+}
+
+.leftSide {
+    flex:1
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 203px;
+    margin-bottom: 138px;
+}
+
+.logo {
+    img {
+        display: inline-flex;
+        height: 60px;
+        width: 200px;
+        align-items: center;
+        gap: 14.581px;
+        flex-shrink: 0;
+    }
+}
+
+.inforFooter {
+    color: var(--text-text-muted, #625873);
+
+    /* Web/Body/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    width: 331px;
+    margin-top: 24px;
+}
+
+.socialMedia {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: var(--space-medium-300, 24px);
+    margin-top: 36px;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.rightSide {
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.links {
+    h3 {
+        color: var(--text-text, #FFF);
+
+        /* Web/Headline/h4 */
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 33px */
+        margin-bottom: 23px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: var(--text-text-muted, #625873);
+
+        /* Web/Body/Medium */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+    }
+
+    a:hover {
+        color: var(--text-text, #FFF);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.linksImportants {
+    h3 {
+        color: var(--text-text, #FFF);
+
+        /* Web/Headline/h4 */
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 33px */
+        margin-bottom: 23px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: var(--text-text-muted, #625873);
+
+        /* Web/Body/Medium */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+    }
+
+    a:hover {
+        color: var(--text-text, #FFF);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.semiCirculoFooter {
+    width: 30vw; // Aumentando a largura
+    height: 55vw; // Aumentando a altura
+    background: radial-gradient(circle at bottom, rgba(111, 0, 255, 0.8), rgba(111, 0, 255, 0.5) 30%, rgba(74, 0, 115, 0.3) 60%, rgba(0, 0, 0, 0) 70%); // Gradiente radial
+    position: absolute;
+    bottom: -1100px; // Posicionando mais ao centro
+    left: 50%;
+    transform: translate(-50%, -75%) rotate(-180deg); // Centralizando e rotacionando 180 graus
+    opacity: 1; // Opacidade completa
+    filter: blur(250px);
+}
